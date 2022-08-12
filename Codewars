@@ -12,3 +12,34 @@ console.log(output);
 function greet(name){
   return ("Hello, " + name + " how are you doing today?");
 }
+
+3
+function boolToWord( bool ){
+if (bool) {
+  return "Yes";
+    }
+  return "No";
+}
+
+4
+function correctTail(body, tail){
+
+  sub = body.substr(body.length-tail.length)
+
+  if (sub === tail)  return true;
+
+  else return false;
+  }
+  
+  5
+  Повторить строку несколько раз
+  
+  function repeatStr (n, s) {
+  return s.repeat(n);
+}
+
+6
+Перевод положительных чисел в отрицательные
+function makeNegative(num) {
+  return -Math.abs(num);
+}
