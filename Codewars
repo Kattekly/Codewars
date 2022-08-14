@@ -43,3 +43,8 @@ function correctTail(body, tail){
 function makeNegative(num) {
   return -Math.abs(num);
 }
+
+7
+String.prototype.isUpperCase = function() {
+  return String(this) === this.toUpperCase();
+}
