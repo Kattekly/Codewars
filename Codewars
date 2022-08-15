@@ -60,3 +60,45 @@ function noSpace(x) {
     }
     return newStr
 }
+
+9
+Перевести строку в верхний регистр
+function makeUpperCase(str) {
+  return str.toUpperCase ();
+}
+
+10
+Четные/нечетные
+function simpleMultiplication(number) {
+     var num = number;
+     if(Math.floor(num / 2) == num / 2) {
+         //Чётное
+         return number * 8;
+     }else{
+         //Нечётное
+         return number * 9;
+     }
+}
+
+11
+function greet () {
+  return ("hello world!")
+}
+greet()
+
+12
+function booleanToString(b){
+ if(b){
+        return "true";
+    }else {
+        return "false";
+    }
+}
+
+13
+Только числа
+function validatePIN(pin) {
+  const aPin = pin.replace(/\D/g, '');
+  
+  return aPin === pin && (pin.length === 4 || pin.length === 6);
+}
