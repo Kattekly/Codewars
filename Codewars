@@ -173,3 +173,26 @@ const convertMinutes = m * 60 * 1000;
 const convertSeconds = s * 1000;
 return convertHours + convertMinutes + convertSeconds;
 }
+
+21
+Среднее арифметическое и сравнение
+function betterThanAverage(classPoints, yourPoints) {
+  return classPoints.reduce((a, b) => a + b) / classPoints.length < yourPoints;
+
+}
+
+22
+Умножение всех чисел в массиве
+function grow(x){
+let result = 1;
+      for(var i = 0; i<x.length; i++){
+        result *= x[i];
+      }
+      return result;
+}
+
+23
+Числа в обратном порядке
+function digitize(n) {
+    return String(n).split('').map(Number).reverse();
+}
