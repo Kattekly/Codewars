@@ -158,3 +158,9 @@ function solution(str){
   const reverseStr = str.split('').reverse('').join('');
   return reverseStr;
 }
+
+19
+Преобразование суммы в двоичный код
+function addBinary(a,b) {
+  return (a+b).toString(2)
+}
