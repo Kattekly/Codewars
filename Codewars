@@ -196,3 +196,85 @@ let result = 1;
 function digitize(n) {
     return String(n).split('').map(Number).reverse();
 }
+
+24
+function getMiddle(s) {
+  const newArr = s.split(""); 
+  let middle;
+    if(newArr.length % 2 === 0){
+      middle = newArr[(newArr.length / 2)- 1]  + newArr[(newArr.length / 2)];
+    } else {
+        middle = newArr[Math.floor(newArr.length / 2)];
+    }
+  return middle;
+}
+
+25
+Удаление первого и последнего элемента в строке/массиве
+function removeChar(str){
+return str.slice(1, -1);
+};
+
+26
+Преобразование строки в массив слов
+function stringToArray(string){
+return string.split(' ');
+}
+
+27
+Возвести в квадрат числа и сложить результаты
+function squareSum(numbers){
+ 			var sum=0;
+ 			for(var i=0;i<numbers.length;i++){
+ 				sum += Math.pow(numbers[i],2);
+ 			}
+ 			return sum;
+		}
+    
+28
+Обратные слова
+function reverseWords(str) {
+  return str.split(' ').map(e => e.split('').reverse().join('')).join(' ')
+}
+
+29
+Подсчитать количество объектов true в масиве
+function countSheeps(arrayOfSheep) {
+  let sum = 0;
+ 			for(let i=0;i < arrayOfSheep.length; i++) {
+ 				if(arrayOfSheep[i]) sum += 1
+ 			}
+ 			return sum;
+		}
+    
+30
+function paperwork(n, m) {
+  if (n > 0 && m > 0) {
+    return n*m;
+  }
+  else {
+    return 0;
+  }
+}
+
+31
+Создайте функцию, которая возвращает массив целых чисел от n до 1, где n>0.
+
+Пример: n=5 --> [5,4,3,2,1]
+
+const reverseSeq = n => { 
+  if (n < 1) {
+    return [];
+  } else {
+    const countArray = reverseSeq(n - 1);
+    countArray.unshift(n);
+    return countArray;
+  }
+};
+
+32
+Удалить все гласные из строки
+function disemvowel(str) {
+  const newStr = str.replace(/[aeiou]/gi, '');
+  return newStr;
+}
