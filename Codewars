@@ -306,3 +306,13 @@ function countBy(x, n) {
   }
   return z;
 }
+
+35
+function greet (name, owner) {
+ if (name == owner) {
+        return("Hello boss")
+    }
+    else {
+        return("Hello guest")
+    }
+}
