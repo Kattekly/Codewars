@@ -390,3 +390,9 @@ function countPositivesSumNegatives(input) {
     }
     return [positiveNums , negativeNums];
 }
+
+43
+Преобразование строки в число
+const stringToNumber = function(str){
+return parseInt(str);
+}
