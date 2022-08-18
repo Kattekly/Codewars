@@ -322,3 +322,9 @@ function greet (name, owner) {
 function solution(str, ending){
   return str.slice(str.length - ending.length) === ending;
 }
+
+37
+Проверить, есть ли элемент в массиве
+function check(a,x){
+  return a.includes(x);
+};
