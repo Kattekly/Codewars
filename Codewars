@@ -352,3 +352,16 @@ if(Math.floor(num / 2) == num / 2) {
          return "even";
      }
 }
+
+40
+Четное/нечетное
+function even_or_odd(number) {
+     var num = number;
+     if(Math.floor(num / 2) == num / 2) {
+         //Чётное
+         return "Even";
+     }else{
+         //Нечётное
+         return "Odd";
+     }
+}
