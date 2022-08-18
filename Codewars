@@ -334,3 +334,21 @@ function check(a,x){
 function abbrevName(name){
  return name.split(' ').map(i => i[0].toUpperCase()).join('.')
 }
+
+
+39
+Проверка суммы на четное/нечетное
+function oddOrEven(array) {
+ let result = 1;  
+  for(var i = 0; i<array.length; i++){
+        result += array[i];
+      }
+ var num = result;    
+if(Math.floor(num / 2) == num / 2) {
+         //Чётное
+         return "odd";
+     }else{
+         //Нечётное
+         return "even";
+     }
+}
