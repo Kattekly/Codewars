@@ -415,3 +415,15 @@ function multiply(a,b){
 function doubleInteger(i) {
   return (i*2);
 }
+
+47
+Убрать восклицательные знаки из строки
+function removeExclamationMarks(s) {
+  let newStr = ''
+    for(let i = 0; i < s.length; i++) {
+        if(s[i] !== "!"){
+            newStr += s[i]
+        }
+    }
+    return newStr
+}
