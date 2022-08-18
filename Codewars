@@ -328,3 +328,9 @@ function solution(str, ending){
 function check(a,x){
   return a.includes(x);
 };
+
+38
+Преобразование имени в инициалы
+function abbrevName(name){
+ return name.split(' ').map(i => i[0].toUpperCase()).join('.')
+}
