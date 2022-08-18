@@ -316,3 +316,9 @@ function greet (name, owner) {
         return("Hello guest")
     }
 }
+
+36
+Совпадение элементов
+function solution(str, ending){
+  return str.slice(str.length - ending.length) === ending;
+}
