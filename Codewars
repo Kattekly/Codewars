@@ -427,3 +427,9 @@ function removeExclamationMarks(s) {
     }
     return newStr
 }
+
+48
+Вернуть имя/фамилию в обратном порядке
+function nameShuffler(str){
+return str.split (" ").reverse().join(" ");
+  }
