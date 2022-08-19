@@ -513,3 +513,15 @@ function invert(array) {
 function numberToString(num) {
  return String(num);
 }
+
+56
+Противоположные числа
+function opposite(number) {
+ return number *= -1;
+}
+
+57
+Из 16-ричной в 10-чную
+function hexToDec(hexString){
+return  parseInt(hexString, 16);
+}
