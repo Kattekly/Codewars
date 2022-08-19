@@ -497,3 +497,19 @@ return [...str].map(s => s.repeat(2)).join('')
 function twiceAsOld(dadYearsOld, sonYearsOld) {
  return Math.abs(dadYearsOld - 2*sonYearsOld);
 }
+
+54
+Отрицательные в положительные/положительные в отрицательные
+function invert(array) {
+   if (array.length === 0) return [];
+   for (let i = 0; i < array.length; i++) {
+     array[i] = -array[i];
+   }
+   return array;
+}
+
+55
+Преобразовать число в строку
+function numberToString(num) {
+ return String(num);
+}
