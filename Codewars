@@ -492,3 +492,8 @@ return employed && !vacation;
 function doubleChar(str) {
 return [...str].map(s => s.repeat(2)).join('')
 }
+
+53
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+ return Math.abs(dadYearsOld - 2*sonYearsOld);
+}
