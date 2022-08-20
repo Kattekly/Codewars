@@ -541,3 +541,15 @@ let result = 0;
   }
   return result;
   }
+
+60
+Любит/не любит
+function howMuchILoveYou(nbPetals) {
+    let yyy = ["I love you", "a little", "a lot", "passionately", "madly", "not at all" ];
+    for (let i = 0; i <= nbPetals-1; i += 1) {
+    
+    if (i === nbPetals-1) {
+      return yyy[i%6];
+    }
+}
+}
