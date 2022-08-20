@@ -559,3 +559,14 @@ function howMuchILoveYou(nbPetals) {
 function maps(x){
  return x.map(el => el * 2);
   }
+
+62
+Создайте функцию, которая проверяет, делится ли число n на два числа x И y. Все входы являются строго положительными числами.
+function isDivisible(n, x, y) {
+  if (n%x == 0 && n%y == 0)  {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
