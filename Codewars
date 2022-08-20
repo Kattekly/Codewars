@@ -531,3 +531,13 @@ return  parseInt(hexString, 16);
 function fixTheMeerkat(arr) {
   return arr.reverse();
 }
+
+59
+Преобразовать строки в числа и узнать их сумму
+function sumMix(x){
+let result = 0;
+     for (let n of x) {
+    result += parseInt(n);
+  }
+  return result;
+  }
