@@ -525,3 +525,9 @@ function opposite(number) {
 function hexToDec(hexString){
 return  parseInt(hexString, 16);
 }
+
+58
+Обратный порядок
+function fixTheMeerkat(arr) {
+  return arr.reverse();
+}
