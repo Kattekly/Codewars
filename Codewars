@@ -580,3 +580,17 @@ function billboard(name, price = 30){
       }
       return result;
 } 
+
+64
+Выдает массив кратных чисел
+Завершите функцию, которая принимает два аргумента и возвращает все числа, которые делятся на заданный делитель. Первый аргумент — это массив чисел, а второй — делитель.
+function divisibleBy(numbers, divisor){
+let mas = [];
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % divisor === 0) {
+      mas.push(numbers[i]);
+    
+  }
+    }
+    return mas;
+}
