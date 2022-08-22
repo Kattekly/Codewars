@@ -602,3 +602,35 @@ let mas = [];
 function twoSort(s) {
   return s.sort()[0].split('').join('***')
 }
+
+66
+Замена символов
+function htmlspecialchars(formData) {
+let arr = [];
+  for (let i = 0; i < formData.length; i++){
+    if (formData[i] == '<'){
+      arr.push('&lt;');
+      
+    } else if(formData[i] == '>'){
+      arr.push('&gt;');
+      
+    } else if(formData[i] == '"'){
+      arr.push('&quot;');
+      
+    } else if(formData[i] == '&'){
+      arr.push('&amp;');
+      
+    } else {
+      arr.push(formData[i]);
+    }
+  }
+  
+  Альтернатива
+  function htmlspecialchars(formData) {
+  return formData.replace(/&/g, "&amp;")
+                 .replace(/"/g, "&quot;")
+                 .replace(/</g, "&lt;")
+                 .replace(/>/g, "&gt;");
+}
+return arr.join('');
+}
