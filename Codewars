@@ -634,3 +634,65 @@ let arr = [];
 }
 return arr.join('');
 }
+
+67
+Вернуть только числа из массива
+function filter_list(l) {
+  return l.filter(x => typeof x === 'number');
+}
+
+68
+Кварталы/месяцы
+const quarterOf = (month) => {
+ if (month > 0 && month <= 3) {
+   return 1;
+ }
+  else if (month > 3 && month <= 6) {
+   return 2;
+ }
+  else if (month > 6 && month <= 9) {
+   return 3;
+ }
+  else if (month > 9 && month <= 12) {
+   return 4;
+ }
+  
+}
+
+69
+Факторы основания
+function checkForFactor (base, factor) {
+  if (base % factor == 0) {
+     return true
+  }
+  else {
+    return false;
+    
+ 70
+ function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return (laLigaGoals + copaDelReyGoals + championsLeagueGoals);
+}
+
+71
+Воды в час, округление до наименьшего целого
+function litres(time) {
+  return Math.floor(time * 0.5);
+}
+  }
+}
+
+72
+Оценки
+function finalGrade (exam, projects) {
+ if (exam > 90 || projects > 10) {
+   return 100;
+ }
+  else if (exam > 75 && projects > 4) {
+   return 90;
+ }
+  else if (exam > 50 && projects > 1) {
+   return 75;
+ }
+  else {
+    return 0;
+  }
