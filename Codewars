@@ -756,3 +756,17 @@ function findShort(s){
   }
   return small.length;
 }
+
+79
+Рандомное число
+function getAge(inputString){
+
+    return parseInt(inputString[Math.floor(Math.random())]);
+  
+}
+
+80
+Отсортировать слова в массиве от меньшего к большему
+function sortByLength (array) {
+return array.sort((a,b) => a.length - b.length); 
+};
