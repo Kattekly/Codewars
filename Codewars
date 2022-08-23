@@ -696,3 +696,51 @@ function finalGrade (exam, projects) {
   else {
     return 0;
   }
+  
+  73
+  Каждое слово с большой буквы
+String.prototype.toJadenCase = function() {
+    return this.split(" ").map((word) => {
+        return word[0].toUpperCase() + word.slice(1);
+    }).join(" ");
+};
+
+74
+Заглавные в строчные и наоборот
+String.prototype.toAlternatingCase = function () {
+   const reg = /[A-Z]/;
+  let result = '';
+  
+  for(let i = 0; i < this.length; i += 1) {
+    if(reg.test(this[i])) {
+      result += this[i].toLowerCase();
+    } else {
+      result += this[i].toUpperCase();
+    }
+  }
+  
+  return result
+}
+
+75
+Добавить после каждого слова пробел
+function smash (words) {
+    return words.join(" "); 
+}
+
+76
+Массив от а до б
+function between(a, b) {
+ let arr = []
+  for(let i=a; i<=b; i++){
+    arr.push(i)
+  }
+  return arr
+}
+
+77
+Количество нечетных чисел
+function rowSumOddNumbers(n) {
+  return n*n*n;
+}
+
