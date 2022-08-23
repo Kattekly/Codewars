@@ -744,3 +744,15 @@ function rowSumOddNumbers(n) {
   return n*n*n;
 }
 
+78
+Вернуть длину кратчайшего слова в массиве
+function findShort(s){
+ var arr = s.split(' ');
+  var small = arr[0];
+  for (var i = 0; i < arr.length; i++) {
+    if(arr[i].length < small.length){
+      small = arr[i];
+    }
+  }
+  return small.length;
+}
