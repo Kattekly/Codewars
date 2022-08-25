@@ -797,3 +797,19 @@ function gooseFilter (birds) {
   var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
   return birds.filter( bird => !geese.includes(bird));
 };
+
+84
+Площадь/периметр
+const areaOrPerimeter = function(l , w) {
+  if (l == w) {
+    return l * w;
+  }
+  else {
+    return l*2 + w*2;
+  }
+};
+
+Сокращенный вариант
+const areaOrPerimeter = function(l , w) {
+  return l == w ? l*w : 2*(l + w)
+};
