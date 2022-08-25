@@ -780,3 +780,13 @@ function enough(cap, on, wait) {
     return ((on + wait) - cap);
   }
 }
+
+82
+Сумма всех чисел в массиве от1 до num
+var summation = function (num) {
+   let sum = 0
+    for (let i = 0; i <= num; i++) {
+        sum += i
+    }
+    return sum
+}
