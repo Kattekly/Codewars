@@ -850,3 +850,21 @@ function accum(s) {
 
   return result.join("-")
 }
+
+88
+Возведение в степень (**) иначе: Math.pow (weight/Math.pow(height,2) )
+function bmi(weight, height) {
+ let arr = (weight / (height ** 2));
+  if (arr < 18.5) {
+    return "Underweight";
+  }
+  else if (arr < 25.0) {
+    return "Normal";
+  }
+  else if (arr < 30.0) {
+    return "Overweight";
+  }
+  else {
+    return "Obese";
+  }
+}
