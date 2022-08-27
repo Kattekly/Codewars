@@ -883,3 +883,8 @@ let arr = args.sort((a, b) => a - b);
 function otherAngle(a, b) {
   return 180 - (a + b);
 }
+
+91
+function sayHello(name) {
+  return 'Hello, ' + name;
+}
