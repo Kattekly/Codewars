@@ -913,3 +913,8 @@ function findNeedle(haystack) {
         return "found the needle at position "+i;
     }
 }
+
+Др. способ
+function findNeedle(haystack) {
+  return "found the needle at position " + haystack.indexOf("needle");
+}
