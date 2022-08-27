@@ -868,3 +868,12 @@ function bmi(weight, height) {
     return "Obese";
   }
 }
+
+89
+Наименьшее число
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+let arr = args.sort((a, b) => a - b);
+  return arr[0];
+  }
+}
