@@ -904,3 +904,12 @@ function hoopCount (n) {
     return "Keep at it until you get it";
   }
 }
+
+94
+Найти слово в массиве и вывести его индекс
+function findNeedle(haystack) {
+ for (let i=0; i<haystack.length; i++) {
+      if (haystack[i] == "needle")
+        return "found the needle at position "+i;
+    }
+}
