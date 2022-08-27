@@ -888,3 +888,9 @@ function otherAngle(a, b) {
 function sayHello(name) {
   return 'Hello, ' + name;
 }
+
+92
+Подсчет кол-ва гласных
+function getCount(str) {
+    return (str.match(/[aeiou]/ig)||[]).length
+}
