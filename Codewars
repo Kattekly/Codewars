@@ -877,3 +877,9 @@ let arr = args.sort((a, b) => a - b);
   return arr[0];
   }
 }
+
+90
+Сумма углов треугольника
+function otherAngle(a, b) {
+  return 180 - (a + b);
+}
