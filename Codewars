@@ -955,3 +955,15 @@ if (dragons * 2 <= bullets) {
     return false;
   }
 }
+
+100
+function testEven(n) {
+       var num = n;
+     if(Math.floor(num / 2) == num / 2) {
+         //Чётное
+         return true;
+     }else{
+         //Нечётное
+         return false;
+     }
+}
