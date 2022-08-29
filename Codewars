@@ -931,3 +931,9 @@ function isPalindrome(x) {
    x = x.toLowerCase();
   return (x === x.split('').reverse().join(''))
 }
+
+97
+Квадрат числа
+function square (x) {
+  return x**2;
+}
