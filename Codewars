@@ -924,3 +924,10 @@ function helloWorld() {
   let str ="Hello World!";
   console.log(str)
 }
+
+96
+Палиндром
+function isPalindrome(x) {
+   x = x.toLowerCase();
+  return (x === x.split('').reverse().join(''))
+}
