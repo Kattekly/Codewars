@@ -992,3 +992,16 @@ if (beast[0] == dish[0] && beast.slice(-1) == dish.slice(-1)) {
     return false;
   }
 }
+
+103
+Перемножить элементы массива и выполнить вычитание из большего
+function findDifference(a, b) {
+  a = (a[0] * a[1] * a[2]);
+  b = (b[0] * b[1] * b[2]);
+  if (a >= b) {
+    return a - b;
+  }
+  if (b >= a) {
+    return b - a;
+  }
+}
