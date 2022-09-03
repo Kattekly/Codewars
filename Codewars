@@ -1029,3 +1029,9 @@ function rentalCarCost(d) {
 function correct(string) {
 	return string.replace(/[5]/g, 'S').replace(/[0]/g, 'O').replace(/[1]/g, 'I');
 }
+
+106
+Строки в числа, сумма и обратно в строку
+function sumStr(a,b) {
+  return String(Number(a)+Number(b));
+}
