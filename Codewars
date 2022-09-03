@@ -1023,3 +1023,9 @@ function rentalCarCost(d) {
     return (d * 40);
   }
 }
+
+105
+Заменить некоторые числа на буквы
+function correct(string) {
+	return string.replace(/[5]/g, 'S').replace(/[0]/g, 'O').replace(/[1]/g, 'I');
+}
