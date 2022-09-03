@@ -1010,3 +1010,16 @@ function findDifference(a, b) {
 function find_difference(a, b) {
   return Math.abs(a[0]*a[1]*a[2]-b[0]*b[1]*b[2]);
 }
+
+104
+function rentalCarCost(d) {
+  if (d >= 3 && d < 7) {
+    return (d * 40 - 20);
+  }
+  else if (d >= 7) {
+    return (d * 40 - 50);
+  }
+  else {
+    return (d * 40);
+  }
+}
