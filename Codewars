@@ -1035,3 +1035,9 @@ function correct(string) {
 function sumStr(a,b) {
   return String(Number(a)+Number(b));
 }
+
+107
+Массив в обратном порядке
+function reverseList(list) {
+return list.reverse();
+}
