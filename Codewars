@@ -1041,3 +1041,13 @@ function sumStr(a,b) {
 function reverseList(list) {
 return list.reverse();
 }
+
+108
+Отсортировать массив чисел по порядку
+function solution(nums){
+  if (nums == [] || nums == null) {
+    return [];
+  }
+ let arr = nums.sort((a, b) => a - b);
+  return arr;
+}
