@@ -1060,3 +1060,13 @@ const arr = N => {
     arr.push(i);
   return arr;
 };
+
+110
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  if (mpg * fuelLeft >= distanceToPump) {
+    return true;
+  }
+  else {
+    return false;
+  }
+};
