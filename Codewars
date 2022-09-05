@@ -1051,3 +1051,12 @@ function solution(nums){
  let arr = nums.sort((a, b) => a - b);
   return arr;
 }
+
+109
+Массив от 0 до N
+const arr = N => {
+  const arr = [];
+  for (let i = 0; i < N; i++)
+    arr.push(i);
+  return arr;
+};
