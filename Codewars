@@ -1104,3 +1104,15 @@ function squareDigits(num){
   }
   return Number(res);
 }
+
+114
+Вернуть массив слов с 4 буквами
+function friend(friends) {
+  let realFr = [];
+  for (let i = 0; i < friends.length; i++) {
+    if (friends[i].length == 4) {
+     realFr.push(friends[i]);
+    }
+  }
+  return realFr;
+}
