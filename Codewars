@@ -1092,3 +1092,15 @@ if (strayNum !== numbers[1] && strayNum !== numbers[2]) {
 function unusualFive() {
   return ("Hello".length);
 }
+
+
+113
+Возвести каждую цифру в квадрат
+function squareDigits(num){
+  var res = "";
+  num = num.toString();
+  for (var i = 0; i < num.length; i++) {
+    res = res + (num[i] ** 2).toString();
+  }
+  return Number(res);
+}
