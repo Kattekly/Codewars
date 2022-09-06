@@ -1085,3 +1085,10 @@ if (strayNum !== numbers[1] && strayNum !== numbers[2]) {
     }
   }
 }
+
+
+112
+Вызвать число без использования цифр
+function unusualFive() {
+  return ("Hello".length);
+}
