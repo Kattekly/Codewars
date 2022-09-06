@@ -1070,3 +1070,18 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
     return false;
   }
 };
+
+
+111
+Найти отличающееся число в массиве
+function stray(numbers) {
+  let strayNum = numbers[0];
+if (strayNum !== numbers[1] && strayNum !== numbers[2]) {
+  return strayNum;
+}
+  for (let i = 1; i < numbers.length; i++) {
+    if (strayNum !== numbers[i]) {
+      return numbers[i];
+    }
+  }
+}
