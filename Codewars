@@ -1160,3 +1160,16 @@ mas.push(min);
 mas.push(max);
   return mas;
   }
+
+117
+Числа меньше или равные лимиту
+function smallEnough(a, limit){
+  for (let i = 0; i<a.length; i++) {
+    if (a[i] > limit) {
+      return false;
+    }
+    else if (i == a.length-1) {
+      return true;
+    }
+  }
+}
