@@ -1173,3 +1173,9 @@ function smallEnough(a, limit){
     }
   }
 }
+
+118
+Выдвет век
+function century(year) {
+  return Math.floor((year + 99)/100);
+}
