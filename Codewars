@@ -1184,3 +1184,9 @@ function century(year) {
 function plural(n) {
 return n != 1
 }
+
+120
+Удалить знак в конце строки
+function remove (string) {
+return string.replace(/!$/,'');
+}
