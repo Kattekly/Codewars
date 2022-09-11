@@ -1204,3 +1204,9 @@ function index(array, n){
   }
   return (array[n] ** n);
 }
+
+123
+function addFive(num) {
+  var total = num + 5
+  return total;
+}
