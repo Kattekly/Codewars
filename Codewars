@@ -1179,3 +1179,8 @@ function smallEnough(a, limit){
 function century(year) {
   return Math.floor((year + 99)/100);
 }
+
+119
+function plural(n) {
+return n != 1
+}
