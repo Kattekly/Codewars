@@ -1196,3 +1196,11 @@ return string.replace(/!$/,'');
 function removeEveryOther(arr){
   return arr.filter((a,i) => i%2 == 0);
 }
+
+122
+function index(array, n){
+  if (array.length - 1 < n) {
+    return -1;
+  }
+  return (array[n] ** n);
+}
