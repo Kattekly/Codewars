@@ -1190,3 +1190,9 @@ return n != 1
 function remove (string) {
 return string.replace(/!$/,'');
 }
+
+121
+Удалить каждый второй элемент масисва
+function removeEveryOther(arr){
+  return arr.filter((a,i) => i%2 == 0);
+}
