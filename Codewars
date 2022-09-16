@@ -1218,3 +1218,8 @@ function combat(health, damage) {
   }
   else return health - damage;
 }
+125
+Заменить один символ на другой
+function DNAtoRNA(dna) {
+  return dna.replace(/T/g,"U");
+}
