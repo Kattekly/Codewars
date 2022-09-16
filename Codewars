@@ -1223,3 +1223,9 @@ function combat(health, damage) {
 function DNAtoRNA(dna) {
   return dna.replace(/T/g,"U");
 }
+
+126
+Обратный порядок слов ("Hello World" --> "World Hello")
+function reverse(string){
+  return string.split(' ').reverse('').join(" ");
+}
