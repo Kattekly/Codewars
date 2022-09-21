@@ -1229,3 +1229,11 @@ function DNAtoRNA(dna) {
 function reverse(string){
   return string.split(' ').reverse('').join(" ");
 }
+
+127
+Привести к одному регистру и сравнить
+function mouthSize(animal) {
+  if (animal.toLowerCase() === "alligator".toLowerCase()) {
+    return "small"
+}else return "wide"
+}
