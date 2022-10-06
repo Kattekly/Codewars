@@ -1260,3 +1260,14 @@ const arithmetic = (a, b, operator) => {
    operator === "add" ? a + b : operator === "subtract" ? a - b : operator === "multiply" ? a * b : a / b
  )
 }
+
+129
+Если строка, вернуть ошибку.
+function problem(x){
+  if (typeof x === 'string') {
+    return "Error"
+  }
+ else {
+   return (x * 50 + 6)
+}
+  }
