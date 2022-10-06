@@ -1279,3 +1279,9 @@ function hello(name) {
     ? `Hello, ${name[0].toUpperCase() + name.toLowerCase().slice(1)}!`
     : `Hello, World!`;
 }
+
+131
+Удалить все после опреденного символа
+function removeUrlAnchor(url){
+  return url.split("\#")[0]
+}
