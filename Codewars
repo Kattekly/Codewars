@@ -1271,3 +1271,11 @@ function problem(x){
    return (x * 50 + 6)
 }
   }
+
+130
+Приветсвие + первая буква заглавная
+function hello(name) {
+  return name
+    ? `Hello, ${name[0].toUpperCase() + name.toLowerCase().slice(1)}!`
+    : `Hello, World!`;
+}
