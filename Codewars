@@ -1322,3 +1322,9 @@ function getDivisorsCnt(n){
     }
   return counter
 }
+
+134
+Получив строку str, переверните ее и опустите все неалфавитные символы.
+function reverseLetter(str) {
+return str.split("").reverse().join("").replace(/[^A-Za-z]/g, "")
+}
