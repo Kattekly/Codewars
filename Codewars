@@ -1328,3 +1328,16 @@ function getDivisorsCnt(n){
 function reverseLetter(str) {
 return str.split("").reverse().join("").replace(/[^A-Za-z]/g, "")
 }
+
+135
+["а", "б", "в"] --> ["1: а", "2: б", "3: в"]
+
+ var number = function (array) {
+    if (array.length == 0) {
+      return [];
+    }else{
+      return array.map(function (item, idx) {
+        return (idx + 1) + ": " + item;
+      });
+    }
+  }
