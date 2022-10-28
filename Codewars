@@ -1363,3 +1363,20 @@ function getSum( a,b ) {
   }
   else return a + getSum(a-1, b)
 }
+
+138
+179 / 5 000
+Результаты перевода
+Учитывая строку цифр, вы должны заменить любую цифру ниже 5 на «0», а любую цифру 5 и выше на «1». Верните полученную строку.
+function fakeBin(x){
+   let res = '';
+   for(let i = 0; i < x.length; i++){
+      const el = +x[i];
+      if(el < 5){
+         res += 0;
+      }else{
+         res += 1;
+      };
+   };
+   return res;
+}
