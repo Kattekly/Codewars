@@ -1384,3 +1384,13 @@ function fakeBin(x){
 function fakeBin(x) {
     return x.split('').map(n => n < 5 ? 0 : 1).join('');
 }
+
+139
+function rainAmount(mm){
+    if (mm < 40) {
+         return `You need to give your plant ${40 - mm}mm of water`;
+    }
+    else {
+         return "Your plant has had more than enough water for today!";
+    }
+}
