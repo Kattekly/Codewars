@@ -1425,8 +1425,14 @@ if (year < yearBorn && yearBorn - year === 1) {
 }
 
 143
+Анаграмма
 var isAnagram = function(test, original) {
 return (test.toLowerCase().split('')
         .sort().join('') === original.toLowerCase()
         .split('').sort().join(''))
 };
+
+144
+function xor(a, b) {
+return a != b
+}
