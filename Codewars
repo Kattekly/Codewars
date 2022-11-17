@@ -1423,3 +1423,10 @@ if (year < yearBorn && yearBorn - year === 1) {
     return "You were born this very year!"
   }
 }
+
+143
+var isAnagram = function(test, original) {
+return (test.toLowerCase().split('')
+        .sort().join('') === original.toLowerCase()
+        .split('').sort().join(''))
+};
