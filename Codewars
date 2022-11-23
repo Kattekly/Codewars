@@ -1436,3 +1436,11 @@ return (test.toLowerCase().split('')
 function xor(a, b) {
 return a != b
 }
+
+145
+Сумма цифр, входящих в число
+let arr = Math.abs(number).toString().split('')
+  let sum = 0;
+  for(let i = 0; i < arr.length; i++)
+    sum += +arr[i]
+  return sum;
