@@ -1450,3 +1450,9 @@ let arr = Math.abs(number).toString().split('')
 function take(arr, n) {
   return arr.slice(0, n)
 }
+
+147
+Метры в секунду/километры в час
+function cockroachSpeed(s) {
+  return Math.floor(s * 100000/3600)
+}
