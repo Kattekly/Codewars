@@ -1476,3 +1476,8 @@ function powersOfTwo(n){
     arr[i] = 2**i
   return arr
 }
+
+150
+function updateLight(current) {
+  return (current == "green" ? "yellow" : current ==  "yellow" ? "red" : "green")
+}
