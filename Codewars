@@ -1486,3 +1486,14 @@ function updateLight(current) {
 function chromosomeCheck(sperm) {
   return sperm == "XX" ? "Congratulations! You're going to have a daughter." : "Congratulations! You're going to have a son."
 }
+
+152
+function firstNonConsecutive (arr) {
+  for (let i = 0; i<arr.length - 1; i++) {
+    if(arr[i]+1 !== arr[i+1]) {
+     return arr[i+1]
+   } 
+     
+   }
+    return null
+  }
