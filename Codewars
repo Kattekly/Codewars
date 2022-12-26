@@ -1502,3 +1502,9 @@ function firstNonConsecutive (arr) {
 function addLength(str) {
   return str.split(' ').map (el => el + ' ' + el.length)
 }
+
+154
+Вернуть строку, изменить разделитель между словами
+function sayHello( name, city, state ) {
+  return (`Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`)
+}
