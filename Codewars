@@ -1508,3 +1508,16 @@ function addLength(str) {
 function sayHello( name, city, state ) {
   return (`Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`)
 }
+
+155
+Вернуть следующий целочисленный квадрат числа
+function findNextSquare(sq) {
+  for(let i=0;i>-1;i++){
+				let square = i*i;
+        		if(square === sq){
+        			return (i+1)*(i+1);
+        		}else if(square>sq){
+        			return -1;
+        		} 
+			}
+ 		}
