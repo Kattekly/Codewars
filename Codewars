@@ -1521,3 +1521,8 @@ function findNextSquare(sq) {
         		} 
 			}
  		}
+156
+Взять индекс среднего числа
+function gimme (triplet) {
+return triplet.indexOf(triplet.slice(0).sort(function(a,b) { return a-b; })[1]);
+}
