@@ -9,3 +9,9 @@ multiplicationTable = function(size) {
         }
         return result
     }
+
+2
+Завершите решение, чтобы функция разбивала верблюжий регистр, используя пробелы между словами.
+function solution(string) {
+    return(string.replace(/([A-Z])/g, ' $1'));
+}
