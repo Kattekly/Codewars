@@ -1526,3 +1526,8 @@ function findNextSquare(sq) {
 function gimme (triplet) {
 return triplet.indexOf(triplet.slice(0).sort(function(a,b) { return a-b; })[1]);
 }
+
+157
+function animal(obj){
+  return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`
+}
