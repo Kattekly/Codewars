@@ -1537,3 +1537,10 @@ function animal(obj){
 function binToDec(bin){
    return parseInt(bin, 2)
 }
+
+159
+Найти сумму наибольших числен в массиве
+function largestPairSum (numbers) {
+ numbers.sort((a, b) => b-a)
+  return numbers[0] + numbers[1]
+}
