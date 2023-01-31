@@ -1544,3 +1544,14 @@ function largestPairSum (numbers) {
  numbers.sort((a, b) => b-a)
   return numbers[0] + numbers[1]
 }
+
+160
+Узнать, есть ли элемент в массиве
+function include(arr, item){
+  for(let i = 0; i<arr.length; i++) {
+    if(arr[i] === item) {
+      return true
+    }
+  }
+ return false
+}
