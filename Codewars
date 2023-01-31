@@ -1555,3 +1555,10 @@ function include(arr, item){
   }
  return false
 }
+
+161
+Найти конретное слово в строке
+function spEng(sentence){
+let str = sentence.toLowerCase()
+ return str.includes("english")
+}
