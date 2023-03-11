@@ -1577,3 +1577,13 @@ DNAStrand.pairs = {
     C: 'G',
     G: 'C',
 };
+
+163
+Чтобы в массиве числа шли последовательно
+function pipeFix(numbers){
+ let result = [];
+  for(let i=numbers[0]; i <=numbers[numbers.length-1]; i++){
+    result.push(i);
+  }
+  return result;
+}
