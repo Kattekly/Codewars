@@ -1592,3 +1592,12 @@ function pipeFix(numbers){
 function usdcny(usd) {
   return (`${(usd * 6.75).toFixed(2)} Chinese Yuan`)
 }
+
+165
+Найти число чаще всего встречающееся в массиве
+const mostFrequent = (array) => {
+ return array.sort((a,b) => 
+      array.filter(v => v===a).length - array.filter(v => v===b).length
+   ).pop();
+}
+console.log(mostFrequent([3, 'c', 'c', 'c', 2, 3, 'c', 3, 'c', 2, 4, 9, 3]));
