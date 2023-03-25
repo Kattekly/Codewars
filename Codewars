@@ -1601,3 +1601,15 @@ const mostFrequent = (array) => {
    ).pop();
 }
 console.log(mostFrequent([3, 'c', 'c', 'c', 2, 3, 'c', 3, 'c', 2, 4, 9, 3]));
+
+166
+Функция для поиска и удаления повторяющихся значений в массиве. Функция должна возвращать массив повторяющихся значений.
+function removeDuplicates(array){
+ let dist = [];
+  for (let i = 0; i < array.length; i++) {
+    let e = array[i];
+    if (dist.indexOf(e) === -1) 
+      dist.push(e);
+  } 
+  return dist;
+}
