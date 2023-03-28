@@ -1619,3 +1619,12 @@ function removeDuplicates(array){
 const func = (str) => {
   return str.split(' ').sort((a, b) => a.length - b.lenght)[0]
   }
+
+177
+Создать функцию, кот. возвращает инициалы
+const func = (str) => {
+ let name = str.split(' ')[0]
+ let secName = str.split(' ')[1]
+ 
+ return (name.split('')[0] + '. ' + secName.split('')[0] + '.').toUpperCase()
+  }
