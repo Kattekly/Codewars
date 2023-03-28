@@ -1613,3 +1613,9 @@ function removeDuplicates(array){
   } 
   return dist;
 }
+
+167
+Функция, кот. возвращает первое самое короткое слово
+const func = (str) => {
+  return str.split(' ').sort((a, b) => a.length - b.lenght)[0]
+  }
