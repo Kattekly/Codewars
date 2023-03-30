@@ -1636,3 +1636,16 @@ const func = (num) => {
 }
 
 console.log(func(99))
+
+179
+Вернуть наименьшее и наибольшее число массива
+const func = (arr) => {
+  let mas = []
+  let per= arr.sort((a, b) => a-b)
+    mas.push(per[0])
+  let sec = arr.sort((a, b) => b-a)
+  mas.push(sec[0])
+  return mas
+}
+
+console.log(func([1, 5, 8, 29, 4, 3]))
