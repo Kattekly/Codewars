@@ -1628,3 +1628,11 @@ const func = (str) => {
  
  return (name.split('')[0] + '. ' + secName.split('')[0] + '.').toUpperCase()
   }
+
+178
+Найти сумму элементов числа
+const func = (num) => {
+  return Math.abs(num).toString().split('').reduce((a, b) => + a + +b, 0)
+}
+
+console.log(func(99))
