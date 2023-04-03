@@ -1673,3 +1673,11 @@ const func = (str) => {
 }
 
 console.log(func('ffFjjkLd'))
+
+182
+Вернуть только положительные числа
+const func = (arr) => {
+return arr.filter(a => a%2 == 0)
+}
+
+console.log(func([1, 2, 4, 5, 10, -6, 3 ,7]))
