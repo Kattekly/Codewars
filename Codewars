@@ -1649,3 +1649,11 @@ const func = (arr) => {
 }
 
 console.log(func([1, 5, 8, 29, 4, 3]))
+
+180
+A Bb Ccc etc.
+const func = (str) => {
+  return str.toUpperCase().split('').map((el, i)=> `${el}${el.repeat(i).toLowerCase()}`).join('-')
+}
+
+console.log(func('abcDa'))
