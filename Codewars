@@ -1681,3 +1681,11 @@ return arr.filter(a => a%2 == 0)
 }
 
 console.log(func([1, 2, 4, 5, 10, -6, 3 ,7]))
+
+183
+Преобразовать массив строк в массив чисел
+const func = (arr) => {
+return arr.map(el => + el)
+}
+
+console.log(func(['1', '5']))
