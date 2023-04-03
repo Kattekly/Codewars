@@ -1689,3 +1689,9 @@ return arr.map(el => + el)
 }
 
 console.log(func(['1', '5']))
+
+184
+Факториал
+function factorial(n) {
+return (n != 1) ? n * factorial(n - 1) : 1;
+}
