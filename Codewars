@@ -1657,3 +1657,19 @@ const func = (str) => {
 }
 
 console.log(func('abcDa'))
+
+181
+Вернуть индексы заглавных букв
+const func = (str) => {
+  let big = str.toUpperCase().split('')
+  let small = str.split('')
+  let res = []
+  for(let i = 0; i < str.length; i++) {
+    if(small[i] === big[i]) {
+      res.push(i)
+    }
+  }
+  return res
+}
+
+console.log(func('ffFjjkLd'))
