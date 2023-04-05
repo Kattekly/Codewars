@@ -1721,3 +1721,10 @@ return n > 0 && Math.sqrt(n) % 1 === 0;
 function sumOfMinimums(arr) {
  return arr.map(el => el.sort((a, b) => a-b)[0]).reduce((partialSum, a) => partialSum + a, 0)
 }
+
+188
+Ввод: 42145 Вывод: 54421
+function descendingOrder(n){
+  let m = n.toString().split('')
+ return Number(m.sort((a,b)=> b-a).join(''))
+}
