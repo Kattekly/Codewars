@@ -1715,3 +1715,9 @@ return true
 return n > 0 && Math.sqrt(n) % 1 === 0;
  }
 }
+
+187
+Вывести сумму минимальных чсиел массивов
+function sumOfMinimums(arr) {
+ return arr.map(el => el.sort((a, b) => a-b)[0]).reduce((partialSum, a) => partialSum + a, 0)
+}
