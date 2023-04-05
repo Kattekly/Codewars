@@ -1735,3 +1735,8 @@ function switchItUp(number){
  let word = ['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine'];
   return word[number];
 }
+
+190
+function printArray(array){
+  return array.toString()
+}
